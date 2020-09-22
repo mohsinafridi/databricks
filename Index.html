@@ -1,0 +1,511 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Manrope:300,400,500,700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="ciklum-favicon.png" sizes="16x16">
+
+</head>
+
+<body>
+
+    <!-- fixed-top -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="svg-parent">
+            <a class="navbar-brand" href="www.ciklum.com">
+                <svg class="ciklum-logo" role="img" aria-label="Ciklum" viewbox="0 0 108 35">
+                    <g id="text">
+                        <path
+                            d="M53.5,20c-0.2,0-0.3,0.1-0.4,0.2c-0.9,0.9-1.7,1.2-2.9,1.2c-2.1,0-3.7-1.7-3.7-3.9s1.6-3.9,3.7-3.9
+c1.1,0,1.9,0.4,2.8,1.1c0.1,0.1,0.3,0.2,0.4,0.2c0.3,0,0.6-0.3,0.6-0.6c0-0.1-0.1-0.3-0.2-0.5c-0.8-0.7-1.8-1.4-3.6-1.4
+c-2.8,0-4.9,2.2-4.9,5.1v0.1c0,2.9,2.1,5.1,4.9,5.1c1.5,0,2.6-0.4,3.7-1.5c0.1-0.1,0.2-0.3,0.2-0.4C54.1,20.3,53.8,20,53.5,20z">
+                        </path>
+                        <path d="M58.7,12.4c-0.3,0-0.6,0.3-0.6,0.6v8.7c0,0.3,0.3,0.6,0.6,0.6c0.3,0,0.6-0.3,0.6-0.6v-8.7
+C59.3,12.7,59,12.4,58.7,12.4z"></path>
+                        <path d="M68.1,16.9l3.4-3.4c0.2-0.2,0.2-0.3,0.2-0.4c0-0.3-0.3-0.6-0.6-0.6c-0.2,0-0.3,0.1-0.4,0.2l-5.5,5.6v-5.2
+c0-0.3-0.3-0.6-0.6-0.6S64,12.7,64,13.1v8.7c0,0.3,0.3,0.6,0.6,0.6s0.6-0.3,0.6-0.6v-2l2.1-2.1l3.6,4.4c0.1,0.2,0.3,0.2,0.5,0.2
+c0.3,0,0.6-0.3,0.6-0.6c0-0.2-0.1-0.3-0.2-0.4L68.1,16.9z"></path>
+                        <path d="M82.1,21.2h-5v-8.2c0-0.3-0.3-0.6-0.6-0.6s-0.6,0.3-0.6,0.6v8.7c0,0.3,0.3,0.6,0.6,0.6h5.6
+c0.3,0,0.6-0.3,0.6-0.6C82.7,21.4,82.4,21.2,82.1,21.2z"></path>
+                        <path d="M93,12.4c-0.3,0-0.6,0.3-0.6,0.6v5.2c0,2-1,3.1-2.9,3.1c-1.8,0-2.9-1.2-2.9-3.2v-5.1c0-0.3-0.3-0.6-0.6-0.6
+c-0.3,0-0.6,0.3-0.6,0.6v5.2c0,2.6,1.6,4.3,4.1,4.3s4.1-1.7,4.1-4.4v-5.1C93.6,12.7,93.3,12.4,93,12.4z"></path>
+                        <path d="M106.5,12.5L106.5,12.5c-0.3,0-0.5,0.1-0.6,0.3l-3.4,5L99,12.7c-0.1-0.1-0.2-0.3-0.5-0.3h-0.1
+c-0.3,0-0.6,0.3-0.6,0.6v8.7c0,0.3,0.3,0.6,0.6,0.6c0.3,0,0.6-0.3,0.6-0.6v-6.9l2.9,4.3c0.1,0.2,0.3,0.3,0.5,0.3
+c0.2,0,0.4-0.1,0.5-0.3l2.9-4.3v7c0,0.3,0.3,0.6,0.6,0.6c0.3,0,0.6-0.3,0.6-0.6v-8.7C107.2,12.7,106.9,12.5,106.5,12.5z">
+                        </path>
+                    </g>
+                    <g id="sign">
+                        <circle fill="#F0F0F0" cx="17.5" cy="17.5" r="17.5"></circle>
+                        <path fill="#00AAF0" d="M17.9,25.5c-4.3,0.3-8.1-3-8.4-7.4C9.2,14.3,11.6,11,15,9.9l-1-3.2c-4.9,1.5-8.3,6.3-7.9,11.7
+c0.4,6.2,5.8,11,12,10.5c0.9-0.1,1.7-0.2,2.5-0.5l-1-3.2C19.1,25.3,18.5,25.4,17.9,25.5"></path>
+                        <path fill="#50468C" d="M12.1,22.8c2.9,2.9,7.6,2.9,10.4,0L20.8,21c-1.9,1.9-5,1.9-6.9,0c-1.9-1.9-1.9-5.1,0-7l-1.7-1.8
+C9.2,15.1,9.2,19.9,12.1,22.8"></path>
+                        <path fill="#F06428" d="M25.6,25.9c-4.5,4.6-11.9,4.6-16.5,0c-2.3-2.3-3.4-5.3-3.4-8.4l0,0c0-3,1.1-6,3.4-8.4
+c4.5-4.6,11.9-4.6,16.5,0L29,5.7C22.5-0.9,12.3-1,5.7,5.7C2.4,9,0.9,13.3,0.9,17.6l0,0c0,4.3,1.6,8.6,4.8,11.8
+c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://jobs.ciklum.com/" target="_blank">
+                        Open Vacancies
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://jobs.ciklum.com/" target="_blank">About Ciklum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://jobs.ciklum.com/" target="_blank">Our offices</a>
+                </li>
+            </ul>
+        </div>
+        <!--<button class="btn my-2 my-sm-0 btn-sendcv" type="button">Send CV</button>-->
+    </nav>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="margin: 173px 0 1px 109px;">
+                    <!-- <p class="banner-heading">
+                        Ciklum DataBricks <br/>Academy.
+                    </p> -->
+                    <h1>
+                        Ciklum DataBricks <br />Academy.
+                    </h1>
+                    <p>
+                        Get the practical skills to work with Databricks<br /> and other Data technologies
+                        on exciting <br /> enterprise projects at Ciklum
+                    </p>
+                    <p>
+                        <a href="#section-program-stages" class="btn my-2 my-sm-0 btn-readmore">Read more</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  -----------------Join Data Bricks Academy Section--------------- -->
+    <!-- <section id="join-academy"> -->
+    <div class="join-academy-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <!-- <img src="images/join.png" alt="mohsin" class="img-fluid" /> -->
+                </div>
+                <div class="col-md-6">
+                    <p class="join-academy-banner-text">Join DataBricks <br /> Academy to: </p>
+                    <ul>
+                        <li>Try yourself as Data Engineer</li>
+                        <li>Expand your technology base and move with the <br /> world to the data driven industry</li>
+                        <li>Learn to work with DataBricks</li>
+                        <li>Discover new career oppurtunities in Data Engineering <br /> in a short period of time</li>
+                    </ul>
+                    <a href="#contact-form" 
+                    class="btn my-2 my-sm-0 btn-join-academy btn-black-text-yellow-bg">
+                        Join the
+                        academy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+
+    <!------------------- Minimum entry req section----------------- -->
+    <div id="section-requirement">
+
+        <div class="container">
+            <div class="row">
+                <div class="col ">
+                    <p class="section-title text-center">Minimum entry requirements</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-md-4 knowledge">
+                    <img src="images/python.svg" alt="python" />
+                    <div class="image-text">
+                        <p>Python <br /> knowledge</p>
+                    </div>
+                </div>
+                <div class="col-md-4 knowledge">
+                    <img src="images/spark.svg" alt="spark" />
+                    <div class="image-text">
+                        <p>Data Engineering <br /> knowledge</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 knowledge">
+                    <img src="images/big data.svg" alt="bigdata" />
+                    <div class="image-text">
+                        <p>Big Data Spark <br /> Knowledge</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Program Stages ------------------ -->
+    <section id="section-program-stages">
+        <div class="container">
+
+            <div class="row text-center div-margin">
+                <div class="col">
+                    <p class="section-title text-center">Program stages</p>
+                </div>
+            </div>
+            <div class="row">
+                <div col-md-2>
+
+                    <div class="card program-card">
+                        <img src="images/program1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Application</h5>
+                            <p class="card-text">Fill the application form.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div col-md-2>
+                    <div class="card program-card">
+                        <img src="images/program2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Initial selection</h5>
+                            <p class="card-text">
+                                Pass interviews with Head of unit/Technical leads and gap assessment.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div col-md-2>
+                    <div class="card program-card">
+                        <img src="images/program3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Path</h5>
+                            <p class="card-text">Complete self-paced education path.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div col-md-2>
+                    <div class="card program-card">
+                        <img src="images/program4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Academy Assessment</h5>
+                            <p class="card-text">Pass the technical interview with the academy dean
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div col-md-2>
+                    <div class="card program-card">
+                        <img src="images/program5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Assignment</h5>
+                            <p class="card-text">Be assigned to a project and start performing your 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row btn-row">
+                <div class="col-md-12 text-center">
+                    <a href="#contact-form" class="btn my-2 my-sm-0 btn-fill-application btn-black-text-yellow-bg" type="button">
+                        Fill
+                        the application form</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------------Academy Support ------------------ -->
+    <section id="section-academy-support">
+        <div class="container">
+
+            <div class="row text-center div-margin">
+                <div class="col">
+                    <p class="section-title text-center">Academy supporting infrastructure</p>
+                </div>
+            </div>
+
+            <!-- <div class="container-fluid cxt-padded bg-faded">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 text-md-left text-center academy-card card">
+                        <img src="images/heart-01.svg" alt="" loading="lazy">
+                      
+                    </div>
+                    <div class="col-md-10 text-md-left text-center">
+                        <h5>Initial selection</h5>
+                        <p>Initial interviews with technical experts and <br /> gap analsis</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+
+            <div class="row row-margin">
+                <div class="col-md-1">
+                    <div class="card academy-card">
+                        <img src="images/heart-01.svg" alt="" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Initial selection</h5>
+                    <p>Initial interviews with technical experts and gap analsis</p>
+                </div>
+
+                <div class="col-md-2"></div>
+
+                <div class="col-md-1">
+                    <div class="card academy-card">
+                        <img src="images/base.svg" alt="" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Academy knowledge base</h5>
+                    <ul>
+                        <li>Courses</li>
+                        <li>Tests</li>
+                        <li>Questions</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row row-margin">
+                <div class="col-md-1 ">
+                    <div class="card academy-card">
+                        <img src="images/communities-01.svg" alt="" loading="lazy">
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <h5>Academy communities</h5>
+                    <ul>
+                        <li>Technical advice chat with all candidates</li>
+                        <li>Mentor from projects</li>
+                        <li>Regular weekly sync-ups with Coordinator and Mentor</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2"></div>
+
+                <div class="col-md-1">
+                    <div class="card academy-card">
+                        <img src="images/assessment-01.svg" alt="" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Academy assessment</h5>
+                    <ul>
+                        <li>Theoretical assessments</li>
+                        <li>Practical exercises</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fill Contact form -->
+    <section id="contact-form">
+        <div class="container">
+            <div class="row contactform">
+                <div class="col-md-4">
+                    <p class="contact-title">Fill the contact <br /> form and <span>start <br /> your education
+                            <br />journey</span></p>
+                </div>
+                <!-- Form Start -->
+                <div class="col-md-8" style="background-color:#fff;padding:5%;">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Name</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Last name</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Email</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Phone number</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Your Skype</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Link to your Linkedin profile</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group">
+                                    <input type="text" class="" required>
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                    <label>Link on your SV or shore description of yor work experience</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <p>
+                                    By submitting completed "Contact us" form,your personal data will be processed by
+                                    Ciklum
+                                    Group and its subsidiary entities worldwise.
+                                    Please read our privacy Notice for more information.if you any questions regading
+                                    your
+                                    rights or would subsequently decide to withdraw
+                                    your consent,please send your request to us.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group">
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="">
+                                        I confirm that i am informed about processing of my personal idea and right to
+                                        withdraw my consent
+                                    </label>
+                                </div>
+                                <button type="submit"
+                                     class="btn my-2 my-sm-0 btn-join-academy 
+                                    btn-black-text-yellow-bg float-right mt-2"
+                                    >
+                                    Join the academy
+                                </button>
+
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group">
+                                    <label class="checkbox-inline">
+                                        <input type="checkbox" value="">
+                                        I give my consent for processing of my personal data to be added to internal
+                                        systems
+                                        and receive additional
+                                        offers about open vacanncies that may be interesting for me.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="my-footer">
+
+        <div class="container">
+            <div class="row flex footer-copyright">
+                <div class="col-xs-12 col-sm-8">
+                    <p>Copyright © 2002-2020 <a target="_blank" href="https://www.ciklum.com/">Ciklum</a>. All rights
+                        reserved.</p>
+                    <p class="tos"><a target="_blank" href="https://www.ciklum.com/terms-of-use/">Terms of Use</a>
+                        | <a target="_blank" href="https://www.ciklum.com/privacy-notice/">Privacy Policy</a>
+                    </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <p style="text-align: end;color:#0000ffc2  !important;font-size:15px;"><strong>facebook</strong></p>
+                    <ul class="facebook-accounts">
+                        <li><a href="https://www.facebook.com/Ciklum/" target="_blank"
+                                title="Follow Ciklum  Ukraine">Ukraine</a></li> |
+                        <li><a href="https://www.facebook.com/CiklumPoland/" target="_blank"
+                                title="Follow Ciklum  Poland">Poland</a></li> |
+                        <li><a href="https://www.facebook.com/CiklumSpain/" target="_blank"
+                                title="Follow Ciklum  Spain">Spain</a></li> |
+                        <li><a href="https://www.facebook.com/ciklum.minsk/" target="_blank"
+                                title="Follow Ciklum Minsk on Facebok">Belarus</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>
+                        Copyright @ 2002 - 2020 Ciklum.All right reserved.
+                    </p>
+                    <p>Terms of Use.Privacy Policy</p>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p><strong>facebook</strong></p>
+                    <p>Ukaraine | Ploand | Spain | Belarus</p>
+
+                </div>
+            </div>
+
+        </div> -->
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,574 @@
+﻿@font-face {
+    font-family: circularbook;
+    src: url(fonts/circular-book.otf);
+}
+
+@font-face {
+    font-family: circularbold;
+    font-weight: bold;
+    src: url(fonts/circular-bold.otf);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: circularbold;
+}
+
+p {
+    font-family: circularbook;
+}
+
+/*#section-nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: aliceblue;
+}
+
+.navbar {
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 58%;
+    transform: translatex(-48%);
+}
+
+
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+    .navbar-nav li a {
+        font-weight: 600;
+        float: right;
+        text-align: left;
+    }
+
+.navbar-toggler {
+    outline: none !important;
+}*/
+
+
+/*.body {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+}*/
+
+/*p {
+    color: #6c6c6f;
+    font-size: 1em;
+}*/
+
+/*h1, h2, h3, h4, h5, h6 {
+    color: #323233;
+    text-transform: uppercase;
+}*/
+
+/*.navbar-brand span {
+    color: #fed136;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+   
+}*/
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 60%;
+    transform: translatex(-35%);top: 10px;
+}
+
+.navbar-brand {
+    color: #000;
+    font-size: 25px;
+    /*font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;*/
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.navbar-nav .nav-item .nav-link {    
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000 !important;
+    font-family: circularbold;
+}
+
+
+
+nav {
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+}
+
+.btn-sendcv {
+    background-color: #ef7f22 !important;
+    color: #fff !important;
+}
+
+/*---------------Banner Section----------------------------*/
+
+#banner {
+    /*background-color: #fff;*/
+    color: #000;
+    padding-top: 5%;
+}
+
+.banner-text {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: circularbold;
+}
+
+.btn-readmore {
+    background-color: #08085b !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+.h1, h1 {
+    font-size: 3.5rem !important;
+}
+.banner {
+    background-image: url('images/main.png');
+    /*text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.banner-text {
+    padding: 200px 0 150px 0;
+}
+
+.banner-heading {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+    color: #000;
+}
+/* .banner-heading::after{
+    content: ".";
+        color: rgb(240, 87, 34);
+    } */
+
+.banner-sub-heading {
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*---------------Join Academy Section----------------------------*/
+#join-academy {
+    padding: 5%;
+
+}
+
+.join-academy-banner-text {
+    font-size: 35px;    
+    margin-top: 100px;
+    font-family: circularbold;
+}
+
+.join-academy-banner {
+    background-image: url('images/join.png');
+    background-size: cover;
+    padding: 8%;
+}
+.join-academy-banner li{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* ---------------------- Minimum entry req section------------------------*/
+#section-requirement {
+    background-color: rgb(152 158 208 / 90%);
+    margin-top: 100px;
+    padding-top: 5%;
+}
+
+.knowledge img {
+    width: 100%;
+    height: 35%;
+}
+
+.knowledge p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: circularbook;
+}
+
+.knowledge .image-text {
+    position: absolute;
+    right: 15%;
+    /* bottom: 20px; */
+    left: 15%;
+    z-index: 10;
+    /* padding-top: 20px; */
+    padding-bottom: 18px;
+    /* color: #fff; */
+    text-align: center;
+}
+
+/*---------------------Program Stages--------------------------- */
+#section-program-stages {
+    padding-top: 5%;
+}
+
+.program-card {
+    width: 13rem;
+    margin: 12px 0px 0px 10px;
+    border: 0px !important;
+    height: 100%;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 0.1rem !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+.card-text{
+    font-size: 12px;
+}
+
+.btn-row {
+    margin: 60px auto;
+
+}
+
+
+/*----------------Academy Support ------------------ */
+
+#section-academy-support {
+    padding-top: 5%;
+    background-color: #ef7f22 !important;
+}
+
+.div-margin {
+    margin: 20px 0px 20px 0px;
+}
+
+.row-margin {
+    margin: 5px 5px;
+}
+
+/* .col-md-1{
+    background-color: #fff;
+} */
+.div-svg {
+    height: 90px;
+    width: 150px;
+    position: relative;
+    margin-right: 27px;
+
+}
+
+.div-svg img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: calc(22% - 9px);
+    left: calc(52% - 40px);
+    width: 78%;
+}
+
+.academy-card {
+    width: 5rem;
+    height: 5rem;
+    border: 0px !important;
+    border-radius: 0px !important;
+    /* margin: 12px 0px 0px 10px;
+    border:0px !important; */
+}
+
+#section-academy-support .col-md-3 {
+    margin: 12px 0px 11px 67px;
+}
+
+.academy-card img {
+    margin: 9px 0px 0px 7px;
+    width: 85%;
+}
+
+/*------------------------Contact Form CSS--------------------------------------*/
+#contact-form {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.contact-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact-title span {
+    color: #ef7f22 !important;
+}
+
+.form-row-margin {
+    padding-top: 2%;
+}
+
+.footer-copyright {
+    padding-top: 20px;
+}
+.footer-copyright p {
+    margin: 0;
+    color: #838e9a !important;
+    font-size: 12px;
+    line-height: 18px;
+}
+.facebook-accounts {
+    /* padding: 30px 0 0; */
+    position: relative;
+    text-align: right;
+}
+.footer-copyright p {
+    margin: 0;
+    color: #838e9a;
+    font-size: 12px;
+    line-height: 18px;
+}
+.facebook-accounts li {
+    display: inline-block;
+}
+.facebook-accounts li a {
+    color: #838e9a;
+    font-size: 14px;
+    position: relative;
+}
+.footer-copyright p a{
+    color: #838e9a;
+}
+.footer-copyright p a:hover {
+    color: #f80;
+}
+.my-footer ul {
+    list-style-type: none;
+}
+.my-footer{
+    background-color: #fff;
+}
+/*------------------------------ Common CSS ------------------------------*/
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin: 20px 0px 50px 0px;
+    font-family: circularbold;
+}
+
+.svg-parent {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+
+.ciklum-logo {
+    flex: 0 0 auto;
+    display: block; 
+     width: 108px;
+    height: 35px;
+}
+
+.img-svg {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: block;
+    width: 108px;
+    height: 35px;
+}
+
+.btn-black-text-yellow-bg {
+    color: #000 !important;
+    background-color: #ef7f22 !important;
+    border-radius: 0px !important;
+    font-size: 15px !important;
+    font-family: circularbook;
+    height: 50px;
+    line-height: 35px !important;
+}
+
+.btn-white-text-yellow-bg {
+    color: #fff !important;
+    background-color: #ef7f22 !important;
+    border-radius: 0px !important;
+    font-size: 15px !important;
+    font-family: circularbook;
+    height:50px;
+    line-height: 35px  !important;
+}
+
+body {
+    height: 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    font-size: 0.9rem !important;
+    background-color: #ece3ec !important;
+    background-image: url(images/dots.png);
+
+    min-height:100%;    
+   
+}
+
+section {
+    padding: 5%;
+}
+
+
+.contactform input[type=text]  {
+    outline: 0 !important;
+    background: transparent !important;
+}
+
+
+.contactform .input-group {
+    position: relative;
+    margin: 1px 0 33px;
+}
+
+.contactform  input[type=text] {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c3c0c0 !important;
+}
+
+.contactform  input:focus {
+    outline: none;
+}
+
+ .contactform label {
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;  
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+.contactform input[type=text]:focus~label,
+.contactform input[type=text]:valid~label {
+    top: -20px;
+    font-size: 14px;
+    /* color: #4285f4; */
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 315px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    /* background: #4285f4; */
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+input[type=text]:focus~.bar:before,
+input[type=text]:focus~.bar:after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+input[type=text]:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+/* animations */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
