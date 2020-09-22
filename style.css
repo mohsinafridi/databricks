@@ -9,12 +9,57 @@
     src: url(fonts/circular-bold.otf);
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
 
+/* ----------------------Media Queries---------------------------- */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+ /* For desktop: */
+@media only screen and (max-width: 768px) {
+
+    .section-program-stages .col-md-2{
+        width:49% !important; 
+        margin-bottom: 12px !important;
+    }
+    .row-margin .col-md-1 {
+        width:25%;
+            }
+            .row-margin .col-md-4 {
+                width:75%;
+                    }
+}
+
+@media only screen and (max-width: 600px) {
+    .join-academy-banner {
+      margin:12px !important;
+    }
+
+    .section-program-stages .col-md-2{
+        width:49% !important; 
+        margin-bottom: 12px !important;
+    }
+
+    .row-margin .col-md-1 {
+width:25%;
+    }
+    .row-margin .col-md-4 {
+        width:75%;
+            }
+  }
 h1,
 h2,
 h3,
@@ -98,7 +143,7 @@ p {
 }
 
 .navbar-nav .nav-item .nav-link {    
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
     color: #000 !important;
     font-family: circularbold;
@@ -120,12 +165,6 @@ nav {
 
 /*---------------Banner Section----------------------------*/
 
-#banner {
-    /*background-color: #fff;*/
-    color: #000;
-    padding-top: 5%;
-}
-
 .banner-text {
     font-size: 50px;
     font-weight: 600;
@@ -142,7 +181,7 @@ nav {
     font-size: 3.5rem !important;
 }
 .banner {
-    background-image: url('images/main.png');
+    background-image: url('images/main_21.png');
     /*text-align: center;
     color: #fff;
     background-repeat: no-repeat;
@@ -152,7 +191,7 @@ nav {
     -moz-background-size: cover;
     -o-background-size: cover;*/
     background-size: cover;
-    padding-top: 5%;
+    padding-bottom: 26%;
 }
 
 .banner-text {
@@ -264,6 +303,9 @@ nav {
     margin: 60px auto;
 
 }
+.data-row .col-md-2{
+    margin:2px auto;
+}
 
 
 /*----------------Academy Support ------------------ */
@@ -274,11 +316,11 @@ nav {
 }
 
 .div-margin {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 10px 0px;
 }
 
 .row-margin {
-    margin: 5px 5px;
+    margin: 15px auto;
 }
 
 /* .col-md-1{
@@ -435,8 +477,8 @@ body {
     background-repeat: repeat;
     background-position: center center;
     font-size: 0.9rem !important;
-    background-color: #ece3ec !important;
-    background-image: url(images/dots.png);
+    background-color: #f9e9f9 !important;
+     background-image: url(images/dots.png); 
 
     min-height:100%;    
    
@@ -459,7 +501,7 @@ section {
 }
 
 .contactform  input[type=text] {
-    font-size: 18px;
+    font-size: 13px;
     padding: 10px 10px 10px 5px;
     display: block;
     width: 100%;
@@ -473,7 +515,7 @@ section {
 
  .contactform label {
     color: #000;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: normal;
     position: absolute;  
     left: 5px;
@@ -572,3 +614,5 @@ input[type=text]:focus~.highlight {
         background: transparent;
     }
 }
+
+

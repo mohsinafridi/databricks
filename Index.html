@@ -10,11 +10,11 @@
 </head>
 
 <body>
-
+    <div class="banner">
     <!-- fixed-top -->
     <nav class="navbar navbar-expand-md navbar-dark">
         <div class="svg-parent">
-            <a class="navbar-brand" href="www.ciklum.com">
+            <a class="navbar-brand" href="https://www.ciklum.com/" target="parent">
                 <svg class="ciklum-logo" role="img" aria-label="Ciklum" viewbox="0 0 108 35">
                     <g id="text">
                         <path
@@ -69,9 +69,8 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                 </li>
             </ul>
         </div>
-        <!--<button class="btn my-2 my-sm-0 btn-sendcv" type="button">Send CV</button>-->
     </nav>
-    <div class="banner">
+   
         <div class="container">
             <div class="row">
                 <div class="col" style="margin: 173px 0 1px 109px;">
@@ -96,8 +95,9 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
     </div>
 
     <!--  -----------------Join Data Bricks Academy Section--------------- -->
-    <!-- <section id="join-academy"> -->
-    <div class="join-academy-banner">
+    
+  
+        <section class="join-academy-banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 ">
@@ -118,8 +118,8 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- </section> -->
+  
+    </section>
 
     <!------------------- Minimum entry req section----------------- -->
     <div id="section-requirement">
@@ -158,7 +158,7 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
     </div>
 
     <!-- ----------------Program Stages ------------------ -->
-    <section id="section-program-stages">
+    <section id="section-program-stages" class="section-program-stages">
         <div class="container">
 
             <div class="row text-center div-margin">
@@ -166,9 +166,8 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                     <p class="section-title text-center">Program stages</p>
                 </div>
             </div>
-            <div class="row">
-                <div col-md-2>
-
+            <div class="row data-row">
+                <div class="col-md-2">
                     <div class="card program-card">
                         <img src="images/program1.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -179,7 +178,7 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                         </div>
                     </div>
                 </div>
-                <div col-md-2>
+                <div class="col-md-2">
                     <div class="card program-card">
                         <img src="images/program2.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -191,7 +190,7 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                         </div>
                     </div>
                 </div>
-                <div col-md-2>
+                <div class="col-md-2">
                     <div class="card program-card">
                         <img src="images/program3.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -202,7 +201,7 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                         </div>
                     </div>
                 </div>
-                <div col-md-2>
+                <div class="col-md-2">
                     <div class="card program-card">
                         <img src="images/program4.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -213,7 +212,7 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                         </div>
                     </div>
                 </div>
-                <div col-md-2>
+                <div class="col-md-2">
                     <div class="card program-card">
                         <img src="images/program5.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -246,23 +245,7 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                 </div>
             </div>
 
-            <!-- <div class="container-fluid cxt-padded bg-faded">
-                <div class="container">
-                  <div class="row align-items-center">
-                    <div class="col-md-2 text-md-left text-center academy-card card">
-                        <img src="images/heart-01.svg" alt="" loading="lazy">
-                      
-                    </div>
-                    <div class="col-md-10 text-md-left text-center">
-                        <h5>Initial selection</h5>
-                        <p>Initial interviews with technical experts and <br /> gap analsis</p>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-
-
-            <div class="row row-margin">
+            <div class="row">
                 <div class="col-md-1">
                     <div class="card academy-card">
                         <img src="images/heart-01.svg" alt="" loading="lazy">
@@ -417,21 +400,25 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                         </div>
 
                         <div class="form-row">
-                            <div class="form-group col">
+                            <div class="form-group col-md-8">
                                 <div class="input-group">
                                     <label class="checkbox-inline">
                                         <input type="checkbox" value="">
-                                        I confirm that i am informed about processing of my personal idea and right to
-                                        withdraw my consent
+                                      <span> 
+                                           I confirm that i am informed about processing of my personal idea and right to withdraw my consent
+                                    </span>
                                     </label>
                                 </div>
-                                <button type="submit"
-                                     class="btn my-2 my-sm-0 btn-join-academy 
-                                    btn-black-text-yellow-bg float-right mt-2"
-                                    >
-                                    Join the academy
-                                </button>
+                               
 
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit"
+                                class="btn my-2 my-sm-0 btn-join-academy 
+                               btn-black-text-yellow-bg float-right mt-2"
+                               >
+                               Join the academy
+                           </button>
                             </div>
                         </div>
                         <div class="form-row">
@@ -439,10 +426,10 @@ c6.4,6.5,16.9,6.5,23.3,0L25.6,25.9z"></path>
                                 <div class="input-group">
                                     <label class="checkbox-inline">
                                         <input type="checkbox" value="">
-                                        I give my consent for processing of my personal data to be added to internal
-                                        systems
+                                        <span>I give my consent for processing of my personal data to be added to internal
+                                        systems <br />
                                         and receive additional
-                                        offers about open vacanncies that may be interesting for me.
+                                        offers about open vacanncies that may be interesting for me.</span>
                                     </label>
                                 </div>
                             </div>
