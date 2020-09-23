@@ -12,54 +12,42 @@
 
 /* ----------------------Media Queries---------------------------- */
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
- /* For desktop: */
+/* For desktop: */
 @media only screen and (max-width: 768px) {
 
-    .section-program-stages .col-md-2{
-        width:49% !important; 
+    .section-program-stages .col-md-2 {
+        width: 49% !important;
         margin-bottom: 12px !important;
     }
-    .row-margin .col-md-1 {
-        width:25%;
-            }
-            .row-margin .col-md-4 {
-                width:75%;
-                    }
+
+    #section-academy-support .col-md-1 {
+        width: 25%;
+    }
+
+    #section-academy-support .col-md-4 {
+        width: 75%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .join-academy-banner {
-      margin:12px !important;
+        margin: 12px !important;
     }
 
-    .section-program-stages .col-md-2{
-        width:49% !important; 
+    .section-program-stages .col-md-2 {
+        width: 49% !important;
         margin-bottom: 12px !important;
     }
 
-    .row-margin .col-md-1 {
-width:25%;
+    #section-academy-support .col-md-1 {
+        width: 25%;
     }
-    .row-margin .col-md-4 {
-        width:75%;
-            }
-  }
+
+    #section-academy-support .col-md-4 {
+        width: 75%;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -131,7 +119,8 @@ p {
 .navbar-nav.navbar-center {
     position: absolute;
     left: 60%;
-    transform: translatex(-35%);top: 10px;
+    transform: translatex(-35%);
+    top: 10px;
 }
 
 .navbar-brand {
@@ -142,7 +131,7 @@ p {
     letter-spacing: 0.1em;
 }
 
-.navbar-nav .nav-item .nav-link {    
+.navbar-nav .nav-item .nav-link {
     font-size: 12px;
     letter-spacing: 1px;
     color: #000 !important;
@@ -177,9 +166,12 @@ nav {
     color: #fff !important;
     border-radius: 0px !important;
 }
-.h1, h1 {
+
+.h1,
+h1 {
     font-size: 3.5rem !important;
 }
+
 .banner {
     background-image: url('images/main_21.png');
     /*text-align: center;
@@ -205,6 +197,7 @@ nav {
     margin-bottom: 30px;
     color: #000;
 }
+
 /* .banner-heading::after{
     content: ".";
         color: rgb(240, 87, 34);
@@ -231,7 +224,7 @@ nav {
 }
 
 .join-academy-banner-text {
-    font-size: 35px;    
+    font-size: 35px;
     margin-top: 100px;
     font-family: circularbold;
 }
@@ -241,7 +234,8 @@ nav {
     background-size: cover;
     padding: 8%;
 }
-.join-academy-banner li{
+
+.join-academy-banner li {
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
@@ -295,7 +289,8 @@ nav {
     font-size: 16px !important;
     font-weight: 700 !important;
 }
-.card-text{
+
+.card-text {
     font-size: 12px;
 }
 
@@ -303,8 +298,9 @@ nav {
     margin: 60px auto;
 
 }
-.data-row .col-md-2{
-    margin:2px auto;
+
+.data-row .col-md-2 {
+    margin: 2px auto;
 }
 
 
@@ -384,43 +380,53 @@ nav {
 .footer-copyright {
     padding-top: 20px;
 }
+
 .footer-copyright p {
     margin: 0;
     color: #838e9a !important;
     font-size: 12px;
     line-height: 18px;
 }
+
 .facebook-accounts {
     /* padding: 30px 0 0; */
     position: relative;
     text-align: right;
 }
+
 .footer-copyright p {
     margin: 0;
     color: #838e9a;
     font-size: 12px;
     line-height: 18px;
 }
+
 .facebook-accounts li {
     display: inline-block;
 }
+
 .facebook-accounts li a {
     color: #838e9a;
     font-size: 14px;
     position: relative;
 }
-.footer-copyright p a{
+
+.footer-copyright p a {
     color: #838e9a;
 }
+
 .footer-copyright p a:hover {
     color: #f80;
 }
+
 .my-footer ul {
     list-style-type: none;
 }
-.my-footer{
+
+.my-footer {
     background-color: #fff;
 }
+
 /*------------------------------ Common CSS ------------------------------*/
 .section-title {
     font-size: 30px;
@@ -438,8 +444,8 @@ nav {
 
 .ciklum-logo {
     flex: 0 0 auto;
-    display: block; 
-     width: 108px;
+    display: block;
+    width: 108px;
     height: 35px;
 }
 
@@ -468,8 +474,8 @@ nav {
     border-radius: 0px !important;
     font-size: 15px !important;
     font-family: circularbook;
-    height:50px;
-    line-height: 35px  !important;
+    height: 50px;
+    line-height: 35px !important;
 }
 
 body {
@@ -478,10 +484,10 @@ body {
     background-position: center center;
     font-size: 0.9rem !important;
     background-color: #f9e9f9 !important;
-     background-image: url(images/dots.png); 
+    background-image: url(images/dots.png);
 
-    min-height:100%;    
-   
+    min-height: 100%;
+
 }
 
 section {
@@ -489,7 +495,7 @@ section {
 }
 
 
-.contactform input[type=text]  {
+.contactform input[type=text] {
     outline: 0 !important;
     background: transparent !important;
 }
@@ -500,7 +506,7 @@ section {
     margin: 1px 0 33px;
 }
 
-.contactform  input[type=text] {
+.contactform input[type=text] {
     font-size: 13px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -509,15 +515,15 @@ section {
     border-bottom: 1px solid #c3c0c0 !important;
 }
 
-.contactform  input:focus {
+.contactform input:focus {
     outline: none;
 }
 
- .contactform label {
+.contactform label {
     color: #000;
     font-size: 13px;
     font-weight: normal;
-    position: absolute;  
+    position: absolute;
     left: 5px;
     top: 10px;
     transition: 0.2s ease all;
@@ -614,5 +620,3 @@ input[type=text]:focus~.highlight {
         background: transparent;
     }
 }
-
-
