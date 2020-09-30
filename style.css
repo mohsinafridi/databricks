@@ -44,7 +44,17 @@
     }
 
     #section-academy-support .col-md-4 {
-        width: 75%;
+        width: 75%;    margin: 18px auto;
+    }
+    .contactform .contact-title{
+        text-align: center;
+    }
+    /* .footer-copyright .facebook-accounts ,.p-facebook strong{
+        text-align: center;
+    } */
+    .footer-bottom-right , .footer-upper-left{
+        text-align: center !important;
+        margin: 15px auto;
     }
 }
 
@@ -61,61 +71,6 @@ p {
     font-family: circularbook;
 }
 
-/*#section-nav-bar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: aliceblue;
-}
-
-.navbar {
-}
-
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 58%;
-    transform: translatex(-48%);
-}
-
-
-
-.navbar-nav li {
-    padding: 0 10px;
-}
-
-    .navbar-nav li a {
-        font-weight: 600;
-        float: right;
-        text-align: left;
-    }
-
-.navbar-toggler {
-    outline: none !important;
-}*/
-
-
-/*.body {
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 16px;
-}*/
-
-/*p {
-    color: #6c6c6f;
-    font-size: 1em;
-}*/
-
-/*h1, h2, h3, h4, h5, h6 {
-    color: #323233;
-    text-transform: uppercase;
-}*/
-
-/*.navbar-brand span {
-    color: #fed136;
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-   
-}*/
 .navbar-nav.navbar-center {
     position: absolute;
     left: 60%;
@@ -126,7 +81,6 @@ p {
 .navbar-brand {
     color: #000;
     font-size: 25px;
-    /*font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;*/
     font-weight: 700;
     letter-spacing: 0.1em;
 }
@@ -137,8 +91,6 @@ p {
     color: #000 !important;
     font-family: circularbold;
 }
-
-
 
 nav {
     -webkit-transition: padding-top .3s, padding-bottom .3s;
@@ -191,11 +143,19 @@ h1 {
 }
 
 .banner-heading {
-    font-size: 45px;
+    font-size: 60px;
+    font-family: circularbold;
+    top: 280px;
+    left: 0px;
+    margin: 0px 0px 107px 0px;
+    font-weight:bold;
+    letter-spacing: 0ch;
+    line-height: normal;
+    /* font-size: 45px;
     font-weight: 700;
     line-height: 100px;
     margin-bottom: 30px;
-    color: #000;
+    color: #000; */
 }
 
 /* .banner-heading::after{
@@ -391,7 +351,7 @@ h1 {
 .facebook-accounts {
     /* padding: 30px 0 0; */
     position: relative;
-    text-align: right;
+   
 }
 
 .footer-copyright p {
@@ -426,7 +386,14 @@ h1 {
 .my-footer {
     background-color: #fff;
 }
-
+.footer-bottom-right{
+    text-align: end;
+}
+.p-facebook strong{
+    text-align: end;
+    color:#0000ffc2  !important;
+    font-size:15px;
+}
 /*------------------------------ Common CSS ------------------------------*/
 .section-title {
     font-size: 30px;
